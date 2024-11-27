@@ -15,7 +15,8 @@
 					"options": {},
 					"configurations": {
 						"production": {
-							"target": "taskapp-shell-1:esbuild:production"
+							"target": "taskapp-shell-1:esbuild:production",
+							"dev": true
 						},
 						"development": {
 							"target": "taskapp-shell-1:esbuild:development",
@@ -112,7 +113,7 @@
 							"buildTarget": "taskapp-shell-1:esbuild:development"
 						}
 					},
-					"defaultConfiguration": "development",
+					"defaultConfiguration": "production",
 					"options": {
 						"port": 4200
 					}
