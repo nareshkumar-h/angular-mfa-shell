@@ -15,8 +15,7 @@
 					"options": {},
 					"configurations": {
 						"production": {
-							"target": "taskapp-shell-1:esbuild:production",
-							"dev": true
+							"target": "taskapp-shell-1:esbuild:production"
 						},
 						"development": {
 							"target": "taskapp-shell-1:esbuild:development",
